@@ -1,4 +1,3 @@
-transition: hue-rotate, 2s; }
 .dash:active {hue-rotate(0deg); }
 .cash {hue-rotate: (270deg); }
 
@@ -13,3 +12,5 @@ img {filter: invert(100%); }
     to { (100%) }
 }
 img { animation: sepia-filter 5s, forwards; }
+body{color:blue;
+    background-color:green; } 
