@@ -1,1 +1,15 @@
+transition: hue-rotate, 2s; }
+.dash:active {hue-rotate(0deg); }
+.cash {hue-rotate: (270deg); }
 
+h1 {font-family: Times; }
+img { height: 300px;
+width: 300px;}
+img {filter: invert(100%); }
+
+@keyframes sepia-filter {
+    from { sepia(0%)
+    }
+    to { (100%) }
+}
+img { animation: sepia-filter 5s, forwards; }
